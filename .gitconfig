@@ -3,7 +3,7 @@
 	email = user@gmail.com
 
 [core]
-	excludesfile = /home/user/ignore.me
+	excludesfile = /home/user/.gitignore
 	whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 
 [alias]
