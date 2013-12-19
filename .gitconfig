@@ -1,8 +1,11 @@
 [user]
 	name = user.name
 	email = user@gmail.com
+
 [core]
-	excludesdir = /home/user/.gitignore
+	excludesfile = /home/user/ignore.me
+	whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
 [alias]
 	st = status -sb
 	ci = commit -a
@@ -40,8 +43,6 @@
     changed = green
     untracked = cyan
 
-[core]
-    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 [diff]
 	renames = copies
 	mnemonicprefix = true

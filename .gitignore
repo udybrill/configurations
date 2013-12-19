@@ -1,6 +1,13 @@
-.settings
 target
-.classpath
+hs_err*
+.settings
 .project
-.pyc
-build
+.classpath
+.idea
+*.pyc
+*.class
+*.iml
+
+#sublime project files
+*.sublime-project
+*.sublime-workspace
