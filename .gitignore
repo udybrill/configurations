@@ -1,9 +1,9 @@
+.settings
+.classpath
+.project
+.idea
 target
 hs_err*
-.settings
-.project
-.classpath
-.idea
 *.pyc
 *.class
 *.iml
